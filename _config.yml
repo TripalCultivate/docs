@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Tripal Cultivate: Documentation
+title: "Tripal Cultivate: Documentation"
 email: knowpulse@usask.ca
 author: KnowPulse Team
 description: > # this means to ignore newlines until "baseurl:"
