@@ -69,7 +69,7 @@ github_branch: "master"
 # If commented, will use material hat theme
 # logo: "assets/img/logo/SRCC-square-red.png"
 logo_pixels: 34
-color: "#414833"
+color: "#333d29"
 
 # Build settings
 markdown: kramdown
