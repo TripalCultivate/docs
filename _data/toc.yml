@@ -1,2 +1,13 @@
-- title: Curation, File Upload and Management
-  url: docs/curation/curation
+- title: "Curation, File Upload and Management"
+  url: docs/curation
+  links:
+    - title: "Phenotypic Data"
+      url: "docs/curation/phenotypic-data"
+    - title: "Genotypic Data"
+      url: "docs/curation/genotypic-data"
+      children:
+        - title: "Metadata Preparation"
+        - url: "docs/curation/genotypic-data#metadata-preparation"
+    - title: "Genetic Maps"
+      url: "docs/curation/genetic-maps"
+
