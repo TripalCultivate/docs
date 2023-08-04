@@ -8,6 +8,22 @@ description: This is documentation pertaining to curation, file upload and manag
 
 ## Metadata Preparation
 
+### Organism
+
+### Genome
+
+### Project
+
 ## File Preparation
 
+### File Formats
+
+### Mapping samples to the database
+
 ## Data Import
+
+### Tripal Importer
+
+### Drush command method
+
+### File Distribution
