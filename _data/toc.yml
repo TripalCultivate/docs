@@ -8,9 +8,10 @@
       children:
         - title: "Metadata Preparation"
           url: "docs/curation/genotypic-data#metadata-preparation"
-          children:
-            - title: "Organism"
-              url: "docs/curation/genotypic-data#metadata-preparation#organism"
+        - title: "File Preparation"
+          url: "docs/curation/genotypic-data#file-preparation"
+        - title: "Data Import"
+          url: "docs/curation/genotypic-data#data-import"
     - title: "Genetic Maps"
       url: "docs/curation/genetic-maps"
 
