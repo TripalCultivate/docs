@@ -7,7 +7,10 @@
       url: "docs/curation/genotypic-data"
       children:
         - title: "Metadata Preparation"
-        - url: "docs/curation/genotypic-data#metadata-preparation"
+          url: "docs/curation/genotypic-data#metadata-preparation"
+          children:
+            - title: "Organism"
+              url: "docs/curation/genotypic-data#metadata-preparation#organism"
     - title: "Genetic Maps"
       url: "docs/curation/genetic-maps"
 
