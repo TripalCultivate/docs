@@ -24,6 +24,9 @@ All genotypic data from a single file upload are grouped using a Chado project. 
 ### File Formats
 
 ### Mapping samples to the database
+A file mapping the samples in the genotype file to the germplasm and samples in the database is required. The file should be tab-delimited and have 5 columns at minimum: (1) Sample name in the genotypes file, (2) Sample name, (3) Sample accession, (4) Germplasm name, (5) Germplasm accession.
+
+The 6th and 7th column are optional: (6) Germplasm type (otherwise, it is assumed to be the default type set on the configuration page) and (7) Organism (this allows multiple organisms in your genotypes file, assuming they have all been aligned to the same genome. Otherwise, the default value is the organism that was specified as the aligned genome on the configuration page). Any additional columns will be ignored. 
 
 ## Data Import
 
