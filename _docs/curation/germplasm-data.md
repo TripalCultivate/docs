@@ -2,7 +2,6 @@
 title: Germplasm Data
 tags:
   - germplasm
-  - breeding
 description: This is documentation pertaining to curation, file upload and management of germplasm data within TripalCultivate.
 ---
 # Germplasm Data

@@ -1,6 +1,11 @@
 - title: "Curation, File Upload and Management"
   url: docs/curation
   links:
+    - title: "Germplasm Data"
+      url: "docs/curation/germplasm-data"
+      children:
+        - title: "Germplasm Accessions"
+          url: "docs/curation/germplasm-data#germplasm-accessions"
     - title: "Phenotypic Data"
       url: "docs/curation/phenotypic-data"
     - title: "Genotypic Data"
