@@ -5,7 +5,7 @@ tags:
 description: This is documentation pertaining to curation, file upload and management of germplasm data within TripalCultivate.
 ---
 # Germplasm Data
-This module package enhances germplasm support in Tripal Core with support for both *Breeding Programs* and *Germplasm Genebanks*. Germplasm importers are designed to accomodate all of the metadata required to meet the Breeding API (BrAPI; https://brapi.org) standards.
+This module package enhances germplasm support in Tripal Core with support for both **Breeding Programs** and **Germplasm Genebanks**. Germplasm importers are designed to accommodate all of the metadata required to meet the Breeding API (BrAPI; [https://brapi.org]) standards.
 
 ## Germplasm Accessions
 The Germplasm Accessions Importer can be accessed by going to "Administration > Tripal > Data Loaders > Tripal Cultivate: Germplasm Accessions"

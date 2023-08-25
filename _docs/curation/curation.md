@@ -1,11 +1,6 @@
 ---
-title: Curation, File Upload and Management 
+title: Curation, File Upload and Management
 description: This documentation is meant to guide tasks related to curation, data import and data management within TripalCultivate.
 ---
-
 # Curation, File Upload and Management
-## Phenotypic Data
-
-## Genotypic Data
-
-## Genetic Maps
+Please note that documentation is currently a work in progress!
