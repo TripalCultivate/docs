@@ -6,6 +6,10 @@
       children:
         - title: "Germplasm Accessions"
           url: "docs/curation/germplasm-data#germplasm-accessions"
+        - title: "Germplasm Crosses"
+          url: "docs/curation/germplasm-data#germplasm-crosses"
+        - title: "Germplasm Collections"
+          url: "docs/curation/germplasm-data#germplasm-collections"
     - title: "Phenotypic Data"
       url: "docs/curation/phenotypic-data"
     - title: "Genotypic Data"
