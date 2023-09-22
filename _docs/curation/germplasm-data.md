@@ -19,7 +19,7 @@ The file should be formatted as a TSV or TXT file with up to 12 columns in the f
 2. **External Database**: The name of the institution who assigned the accession. This name must already be present in the chado table `db` and match exactly.
 3. **Accession Number**: A unique identifier for the germplasm accession.
 4. **Germplasm Species**: The species of the accession.
-5. **Germplasm Subtaxa**: Specifies the subtaxon, or can be used to store any additional taxonomic identifier.
+5. **Germplasm Subtaxa**: A subtaxon can be used to store any additional taxonomic identifier. The rank below species is specified, followed by the name. For example, if the full scientific name is `Daucus carota subsp. sativus`, then the value for this column will be `subsp. sativus`. Full and abbreviated versions of rank are supported. The following abbreviations are allowed: subsp. (for subspecies); convar. (for convariety); var. (for variety or varietas); subvar. (subvariety or subvarietas) f. (for form or forma); subf. (for subform or subforma); Group (for cultivar group).
 6. **Institute Code**: The FAO WIEWS code of the institute where the accession is maintained. An FAO WIEWS Institute Code consists of the 3-letter ISO 3166-1 alpha 3 country code of the country where the institute is located plus a number (e.g. COL001, USA1004).
 7. **Institute Name**: The name of the Institute that has bred the material.
 8. **Country of Origin Code**: A 3-letter ISO 3166-1 code of the country in which the sample was originally collected, bred or selected. Codes can be [found here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3).
