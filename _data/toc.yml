@@ -3,13 +3,13 @@
   links:
     - title: "Germplasm Data"
       url: "docs/curation/germplasm-data"
-      children:
+      links:
         - title: "Germplasm Accessions"
-          url: "docs/curation/germplasm-data#germplasm-accessions"
+          url: "docs/curation/germplasm-data/germplasm-accessions-importer"
         - title: "Germplasm Crosses"
-          url: "docs/curation/germplasm-data#germplasm-crosses"
+          url: "docs/curation/germplasm-data/germplasm-crosses-importer"
         - title: "Germplasm Collections"
-          url: "docs/curation/germplasm-data#germplasm-collections"
+          url: "docs/curation/germplasm-data/germplasm-collections-importer"
     - title: "Phenotypic Data"
       url: "docs/curation/phenotypic-data"
     - title: "Genotypic Data"
