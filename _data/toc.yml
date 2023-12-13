@@ -3,7 +3,7 @@
   links:
     - title: "Germplasm Data"
       url: "docs/curation/germplasm-data"
-      links:
+      children:
         - title: "Germplasm Accessions"
           url: "docs/curation/germplasm-data/germplasm-accessions-importer"
         - title: "Germplasm Crosses"
