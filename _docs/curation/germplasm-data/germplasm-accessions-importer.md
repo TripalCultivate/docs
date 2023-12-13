@@ -6,6 +6,7 @@ tags:
 description: This is documentation pertaining to import of germplasm accessions data into the Chado database.
 ---
 
+## Germplasm Accessions Importer
 The Germplasm Accessions Importer can be accessed by going to "Administration > Tripal > Data Loaders > Tripal Cultivate: Germplasm Accessions"
 
 ### Select Genus
