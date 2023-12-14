@@ -17,6 +17,9 @@ Germplasm accessions and their corresponding metadata are stored in the followin
 - Properties are loaded into the table `stockprop`
 - Synonyms are loaded into the tables `synonym`, `stock_synonym` and `stock_relationship`
 
+![](https://github.com/TripalCultivate/docs/assets/7927760/a4ad840a-a777-4163-812f-5a42f4be306c)
+
+
 ### Germplasm Crosses
 Germplasm crosses and their corresponding metadata are stored in the following chado tables: `stock`, `stockprop`, and `stock_relationship`:
   
