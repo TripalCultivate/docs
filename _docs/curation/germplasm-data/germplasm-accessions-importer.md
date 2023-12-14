@@ -21,8 +21,12 @@ The file should be formatted as a TSV or TXT file with up to 12 columns in the f
 6. **Institute Code**: The FAO WIEWS code of the institute where the accession is maintained. An FAO WIEWS Institute Code consists of the 3-letter ISO 3166-1 alpha 3 country code of the country where the institute is located plus a number (e.g. COL001, USA1004). You can lookup the code for a particular institute [here](https://www.fao.org/wiews/data/organizations/en/?no_cache=1).
 7. **Institute Name**: The name of the Institute that has bred the material.
 8. **Country of Origin Code**: A 3-letter ISO 3166-1 code of the country in which the sample was originally collected, bred or selected. Codes can be [found here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3).
-9. **Biological Status of Accession**: The 3 digit code representing the biological status of the accession. The coding scheme for biological status can be used at two different levels of detail: either as a general code (e.g. 100, 200) or a more specific code (e.g. 110, 120).
+9. **Biological Status of Accession**: The 3 digit code representing the biological status of the accession. The coding scheme for biological status can be used at two different levels of detail: either as a general code (e.g. 100, 200) or a more specific code (e.g. 110, 120). See table provided below for the various codes and their meaning.
+10. **Breeding Method**: The short unique identifier for the method used to generate this accession. In the BrAPI, this would be the `breedingMethodDbId` and then more details for the method would be retrieved via the `/breedingmethods` call.
+11. **Pedigree**: The parental selection history of this germplasm. It is recommended to use the format described in [Purdy et. al. (1969)](https://acsess.onlinelibrary.wiley.com/doi/epdf/10.2135/cropsci1968.0011183X000800040002x) (i.e. `maternal-parental\paternal-parent`)
+12. **Synonyms**: A list of alternative names or IDs used to reference this germplasm. Multiple synonyms can be separated using commas or semicolons (eg. `synonym1,synonym2`).
 
+**Biological Status of Accession Table**
   | Code | Meaning    |
   |------|------------|
   | 100  | Wild       |
@@ -46,7 +50,3 @@ The file should be formatted as a TSV or TXT file with up to 12 columns in the f
   | 500  | Advanced or improved cultivar (conventional breeding methods) |
   | 600  | GMO (by genetic engineering) |
   | 999  | Other |
-
-10. **Breeding Method**: The short unique identifier for the method used to generate this accession. In the BrAPI, this would be the `breedingMethodDbId` and then more details for the method would be retrieved via the `/breedingmethods` call.
-11. **Pedigree**: The parental selection history of this germplasm. It is recommended to use the format described in [Purdy et. al. (1969)](https://acsess.onlinelibrary.wiley.com/doi/epdf/10.2135/cropsci1968.0011183X000800040002x) (i.e. `maternal-parental\paternal-parent`)
-12. **Synonyms**: A list of alternative names or IDs used to reference this germplasm. Multiple synonyms can be separated using commas or semicolons (eg. `synonym1,synonym2`).
