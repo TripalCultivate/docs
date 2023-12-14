@@ -27,6 +27,7 @@ The file should be formatted as a TSV or TXT file with up to 12 columns in the f
 12. **Synonyms**: A list of alternative names or IDs used to reference this germplasm. Multiple synonyms can be separated using commas or semicolons (eg. `synonym1,synonym2`).
 
 **Biological Status of Accession Table**
+
   | Code | Meaning    |
   |------|------------|
   | 100  | Wild       |
