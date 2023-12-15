@@ -4,3 +4,11 @@ description: This documentation is meant to guide tasks related to curation, dat
 ---
 # Curation, File Upload and Management
 Please note that documentation is currently a work in progress!
+
+## Germplasm Data
+
+
+## Phenotypic Data
+
+
+## Genotypic Data
