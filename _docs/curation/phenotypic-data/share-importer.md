@@ -20,6 +20,6 @@ The file should be formatted as a TSV file with up to 10 columns in the followin
 9. **Value**: The measured phenotypic value. (e.g. 34)
 10. **Data Collector**: The name of the person or organization which measured the phenotype.
 
-### Raw Phenotypes
+## Raw Phenotypes
 
 ### File Format
