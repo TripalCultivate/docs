@@ -6,7 +6,12 @@ tags:
 description: This is documentation pertaining to import of shareable phenotypic data into the Chado database.
 ---
 ## Analyzed Phenotypes 
+The Open Science Phenotypic Data can be accessed by going to "Administration > Tripal > Data Loaders > Tripal Cultivate: Open Science Phenotypic Data"
 
+### Select Project/Experiment
+First, 
+### Select Genus
+Second, select the genus of the accessions in the file you wish to upload by selecting it from the dropdown menu. All accessions in one file must belong to the same genus and match this selection. Regardless, it is not recommended to maintain germplasm data across multiple genus within the same file, as assigned names can be re-used across genus and cause confusion during curation.
 ### File Format
 The file should be formatted as a TSV file with up to 10 columns in the following order:
 1. **Trait Name**: The full name of the trait as you would like it to appear on a trait page. This should not be abbreviated (e.g. Days till one open flower).
