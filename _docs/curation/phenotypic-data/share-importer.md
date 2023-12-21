@@ -9,7 +9,7 @@ description: This is documentation pertaining to import of shareable phenotypic 
 The Open Science Phenotypic Data can be accessed by going to "Administration > Tripal > Data Loaders > Tripal Cultivate: Open Science Phenotypic Data"
 
 ### Select Project/Experiment
-First, select project or experiment from the dropdown.
+First, select the name of a project or an experiment you wish to upload from the dropdown.
 ### Select Genus
 Second, select the genus of the accessions in the file you wish to upload by selecting it from the dropdown menu. All accessions in one file must belong to the same genus and match this selection. Regardless, it is not recommended to maintain germplasm data across multiple genus within the same file, as assigned names can be re-used across genus and cause confusion during curation.
 ### File Format
