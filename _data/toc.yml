@@ -26,12 +26,8 @@
     - title: "Genotypic Data"
       url: "docs/curation/genotypic-data"
       children:
-        - title: "Metadata Preparation"
-          url: "docs/curation/genotypic-data#metadata-preparation"
-        - title: "File Preparation"
-          url: "docs/curation/genotypic-data#file-preparation"
-        - title: "Data Import"
-          url: "docs/curation/genotypic-data#data-import"
+        - title: "Genotypic Data Import"
+          url: "docs/curation/genotypic-data/genotypic-data-importer"
     - title: "Genetic Maps"
       url: "docs/curation/genetic-maps"
 
