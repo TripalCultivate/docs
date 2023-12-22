@@ -5,7 +5,7 @@ tags:
   - importers
 description: This is documentation pertaining to import of shareable phenotypic data into the Chado database.
 ---
-## Analyzed Phenotypes 
+## Open Science Phenotypic Data Import
 The Open Science Phenotypic Data can be accessed by going to "Administration > Tripal > Data Loaders > Tripal Cultivate: Open Science Phenotypic Data"
 
 ### Select Project/Experiment
