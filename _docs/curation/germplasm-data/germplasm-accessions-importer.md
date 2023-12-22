@@ -7,7 +7,14 @@ description: This is documentation pertaining to import of germplasm accessions 
 ---
 
 ## Germplasm Accessions Importer
-The Germplasm Accessions Importer can be accessed by going to "Administration > Tripal > Data Loaders > Tripal Cultivate: Germplasm Accessions"
+
+### Metadata Preparation
+This importer requires and checks for the following to exist in the database:
+- A chado organism record for the species of the germplasm. This can be done through the administrative interface by navigating to `Tripal > Content > Add Tripal Content` and clicking on **Organism** under the heading **General**. If the various germplasm in your file belong to more than one species, then each species needs to have its own record.
+- A record for the external database, which in this case is the genebank, or whichever institution assigned the accession. This currently needs to be inserted at the database level, since there is no interface implemented in Tripal. Please reach out to the Tripal community if you need help with this, or create an issue in the Github repository (either Tripal Cultivate or Tripal).
+
+### Access
+The Germplasm Accessions Importer can be accessed by going to `Administration > Tripal > Data Loaders > Tripal Cultivate: Germplasm Accessions`
 
 ### Select Genus
 First, select the genus of the accessions in the file you wish to upload by selecting it from the dropdown menu. All accessions in one file must belong to the same genus and match this selection. Regardless, it is not recommended to maintain germplasm data across multiple genus within the same file, as assigned names can be re-used across genus and cause confusion during curation.

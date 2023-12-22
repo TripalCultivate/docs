@@ -16,6 +16,7 @@ Germplasm accessions and their corresponding metadata are stored in the followin
 - The external database (eg: genebank) is stored in `dbxref` and `db`
 - Properties are loaded into the table `stockprop`
 - Synonyms are loaded into the tables `synonym`, `stock_synonym` and `stock_relationship`
+  - A stock-relationship is **only** created if the synonym name already exists in the stock table with the same name.
 
 ![](https://github.com/TripalCultivate/docs/assets/7927760/a4ad840a-a777-4163-812f-5a42f4be306c)
 
