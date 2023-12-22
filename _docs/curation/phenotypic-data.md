@@ -9,7 +9,7 @@ description: This is documentation pertaining to curation, file upload and manag
 This module package... *describe the purpose of the phenotypic data module package for a curator of phenotypic data*
 
 ## [Phenotypic Traits](phenotypic-data/traits-importer)
-
+Each given experiment is expected to have its specified traits. Addition traits can also be added and described during data upload. 
 
 
 
