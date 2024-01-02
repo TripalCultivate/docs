@@ -19,3 +19,4 @@ The Germplasm Crosses Importer is used for germplasm samples that are developed 
 The functionality in Germplasm Collections provides a way to curate germplasm that has a shared purpose for research. This can look like a diversity panel to test the performance of various germplasm in a particular environment, or a population derived from a single cross, such as a recombinant inbred line (RIL) population. The germplasm collection is then linked to a project in the database. A single germplasm can be curated into multiple collections, and a collection can be linked to multiple projects and vice versa.
 
 ## [Data Storage Model](germplasm-data/data-storage-model)
+This section focusses on how germplasm data is stored at the database level. Data curators may find this information helpful when checking what connections between data are being made or if something needs to be modified at the database level.
