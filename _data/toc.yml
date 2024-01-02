@@ -30,6 +30,15 @@
           url: "docs/curation/genotypic-data/genotypic-data-importer"
         - title: "VCF File Management"
           url: "docs/curation/genotypic-data/vcf-management"
+        - title: "Data Storage Model"
+          url: "docs/curation/genotypic-data/data-storage-model"
     - title: "Genetic Maps"
       url: "docs/curation/genetic-maps"
+      children:
+        - title: "MSTmap Importer"
+          url: "docs/curation/genetic-maps/mstmap-importer"
+        - title: "QTL Importer"
+          url: "docs/curation/genetic-maps/qtl-importer"
+        - title: "Data Storage Model"
+          url: "docs/curation/genetic-maps/data-storage-model"
 

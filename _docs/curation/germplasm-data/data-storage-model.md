@@ -2,8 +2,9 @@
 title: Data Storage Model
 tags:
   - germplasm
+  - data storage
   - importers
-description: This is documentation pertaining to how germplasm data is stored in the Chado database.
+description: This is documentation pertaining to how germplasm data are stored in the Chado database.
 ---
 
 ## Data Storage Model for Germplasm

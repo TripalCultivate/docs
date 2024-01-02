@@ -14,3 +14,5 @@ The genotypic data importer accommodates genotypic data stored in the variant ca
 ## [VCF File Management](genotypic-data/vcf-management)
 This functionality provides a means of uploading variant call format (VCF) files so that users can access pertinent metadata, filter and convert genotypic data to a format that suits their needs. This can be useful when a genotypic dataset is not ready for import into the database and multiple researchers will be using it for their projects. A researcher may also require access to the data in a specific format required by analysis software. The curator will have the ability to control user access, include the methods that generated the dataset, generate statistical summaries, and specify which conversions to other file formats are appropriate to that dataset.
 
+## [Data Storage Model](genotypic-data/data-storage-model)
+This section focusses on how genotypic data are stored at the database level. Data curators may find this information helpful when checking what connections between data are being made or if data needs to be modified at the database level.
