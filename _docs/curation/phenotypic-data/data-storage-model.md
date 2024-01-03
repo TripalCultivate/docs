@@ -4,10 +4,9 @@ tags:
   - phenotype
   - data storage
   - importers
-description: This is documentation pertaining to how phenotypic data is stored in the Chado database.
+description: This is documentation pertaining to how phenotypic data are stored in the Chado database.
 ---
-
-## Data Storage Model for Phenotypic
+## Data Storage Model for Phenotypic Data
 
 ### Collect Importer
 

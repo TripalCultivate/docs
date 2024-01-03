@@ -6,7 +6,6 @@ tags:
   - importers
 description: This is documentation pertaining to how germplasm data are stored in the Chado database.
 ---
-
 ## Data Storage Model for Germplasm
 
 ### Germplasm Accessions

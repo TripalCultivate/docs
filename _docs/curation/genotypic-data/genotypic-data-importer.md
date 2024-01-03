@@ -5,7 +5,6 @@ tags:
   - importers
 description: This is documentation pertaining to the import of genotypic data within TripalCultivate.
 ---
-
 ## Metadata Preparation
 
 ### Organism
@@ -21,15 +20,23 @@ All genotypic data from a single file upload are grouped using a Chado project. 
 
 ## File Preparation
 
-### File Formats
-
 ### Mapping samples to the database
-A file mapping the samples in the genotype file to the germplasm and samples in the database is required. The file should be tab-delimited and have 5 columns at minimum: (1) Sample name in the genotypes file, (2) Sample name, (3) Sample accession, (4) Germplasm name, (5) Germplasm accession.
+A file mapping the samples in the genotype file to the germplasm and samples in the database is required. The file should be tab-delimited and the first 5 columns are required (any columns beyond 7 will be ignored): 
+1. **Sample name in the genotypes file**: The name used to identify the sample in the genotypes file to be uploaded. For example, a variant call format (VCF) file will have sample names in the header from column 9 onwards.
+2. **Sample name**: This is the name of the particular DNA stock that was assayed and genotyped. This name is often labeled on the tube of DNA and/or the name given to the sequencer.
+3. **Sample accession**: The unique identifier of the sample name of the DNA stock (see column #2).
+4. **Germplasm name**: The name of the germplasm that was selected for genotyping.
+5. **Germplasm accession**: The unique identifier of the germplasm that was selected for genotyping.
+6. **Germplasm type**: The type of germplasm, which must be a controlled vocabulary term name. To see what controlled vocabulary terms are supported for germplasm, navigate to `Admistration > Tripal > Page Structure` and look in the category column for `Germplasm`. The term column includes the term name and term accession in brackets. The term name is what you will specify in this column of your samples mapping file. If left blank, the default term is the one which was specified on the configuration page for this module.
+7. **Organism**: The full scientific name of the organism of this sample/germplasm. This must match what is already in the database, including subtaxa if applicable (see specification of the Germplasm Accessions Importer for more information). This column allows for multiple species to be present in your genotypic data file, even though the data will have been aligned to a single genome. If left blank, the default organism will be the one of the aligned genome.
 
-The 6th and 7th column are optional: (6) Germplasm type (otherwise, it is assumed to be the default type set on the configuration page) and (7) Organism (this allows multiple organisms in your genotypes file, assuming they have all been aligned to the same genome. Otherwise, the default value is the organism that was specified as the aligned genome on the configuration page). Any additional columns will be ignored. 
+### Genotypic File Formats
+Under development.
 
-### Tripal Importer
+## Genotypic Data Import
+
+### Tripal Importer method
+Under development.
 
 ### Drush command method
-
-### File Distribution
+Under development.
