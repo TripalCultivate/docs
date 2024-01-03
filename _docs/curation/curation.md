@@ -15,4 +15,4 @@ This section describes how to capture measurements right after collection into a
 With the rise of sequencing technology, it is becoming more common to handle large-scale genotypic datasets. This section will describe how to upload genotypic data through the interface but also directly through the command-line, depending on the scale of the dataset. Additionally, you can also manage and describe VCF files for distribution among your users if the data is not refined or deemed appropriate for the database.
 
 ## [Genetic Maps](genetic-maps)
-If researchers are developing linkage maps and QTLs, these can be imported into the database and properly described using separate map and QTL importers.
+If researchers are combining genotypic and phenotypic data to develop linkage maps and QTLs, these can be imported into the database and properly described using separate map and QTL importers.
