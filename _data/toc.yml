@@ -2,11 +2,11 @@
   url: docs/administration/administration
   links:
     - title: "Installation"
-    url: docs/administration/installation
+      url: docs/administration/installation
     - title: "Setup and Configuration"
-    url: docs/administration/configuration
+      url: docs/administration/configuration
     - title: "Ongoing Site Management"
-    url: docs/administration/management
+      url: docs/administration/management
 - title: "Curation, File Upload and Management"
   url: docs/curation/curation
   links:
