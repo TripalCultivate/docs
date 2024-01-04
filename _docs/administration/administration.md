@@ -5,7 +5,7 @@ description: This documentation is designed to guide tasks related to administra
 # Administration
 This section of the documentation is designed to guide a site administrator to install, configure and manage any of the TripalCultivate modules.
 
-## [Installation](installation-instructions)
+## [Installation](installation)
 Find out what the requirements are, how to select the right modules for your site's needs, and what order to install them in this section.
 
 ## [Setup and Configuration](configuration)

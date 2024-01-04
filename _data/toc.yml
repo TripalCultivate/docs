@@ -2,7 +2,16 @@
   url: docs/administration/administration
   links:
     - title: "Installation"
-      url: docs/administration/installation-instructions
+      url: docs/administration/installation
+      children:
+        - title: "Requirements"
+          url: docs/administration/installation#requirements
+        - title: "TripalCultivate Germplasm"
+          url: docs/administration/installation#tripalcultivate-germplasm
+        - title: "TripalCultivate Phenotypes"
+          url: docs/administration/installation#tripalcultivate-phenotypes-optional
+        - title: "TripalCultivate Genetics"
+          url: docs/administration/installation#tripalcultivate-genetics-optional
     - title: "Setup and Configuration"
       url: docs/administration/configuration
     - title: "Ongoing Site Management"
