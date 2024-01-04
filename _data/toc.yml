@@ -2,7 +2,7 @@
   url: docs/administration/administration
   links:
     - title: "Installation"
-      url: docs/administration/installation
+      url: docs/administration/installation-instructions
     - title: "Setup and Configuration"
       url: docs/administration/configuration
     - title: "Ongoing Site Management"
