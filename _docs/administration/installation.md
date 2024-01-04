@@ -14,36 +14,36 @@ description: This documentation is designed to guide an administrator on install
 ### TripalCultivate Germplasm
 Using composer, add this package to your Drupal site by using the following command in the root of your Drupal site:
 
-> composer require tripalcultivate/germplasm
+`composer require tripalcultivate/germplasm`
 
 This will download the most recent release in the modules directory. You can see more information in the Drupal Docs.
 
 Then you can install it using Drush or the Extensions page on your Drupal site.
 
-> drush en trpcultivate_germplasm
+`drush en trpcultivate_germplasm`
 
 ### TripalCultivate Phenotypes (optional)
 The [TripalCultivate Germplasm](installation#tripalcultivate-germplasm) module must be enabled and configured prior to installing Phenotypes.
 
 Using composer, add this package to your Drupal site by using the following command in the root of your Drupal site:
 
-> composer require tripalcultivate/phenotypes
+`composer require tripalcultivate/phenotypes`
 
 This will download the most recent release in the modules directory. You can see more information in the Drupal Docs.
 
 Then you can install it using Drush or the Extensions page on your Drupal site.
 
-> drush en trpcultivate_phenotypes
+`drush en trpcultivate_phenotypes`
 
 ### TripalCultivate Genetics (optional)
 The [TripalCultivate Germplasm](installation#tripalcultivate-germplasm) module must be enabled and configured prior to installing Genetics.
 
 Using composer, add this package to your Drupal site by using the following command in the root of your Drupal site:
 
-> composer require tripalcultivate/genetics
+`composer require tripalcultivate/genetics`
 
 This will download the most recent release in the modules directory. You can see more information in the Drupal Docs.
 
 Then you can install it using Drush or the Extensions page on your Drupal site.
 
-> drush en trpcultivate_genetics
+`drush en trpcultivate_genetics`
