@@ -59,4 +59,5 @@
           url: "docs/curation/genetic-maps/qtl-importer"
         - title: "Data Storage Model"
           url: "docs/curation/genetic-maps/data-storage-model"
-
+- title: "User Documentation"
+  url: docs/user/user

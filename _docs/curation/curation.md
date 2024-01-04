@@ -3,7 +3,7 @@ title: Curation, File Upload and Management
 description: This documentation is designed to guide tasks related to curation, data import and data management within TripalCultivate.
 ---
 # Curation, File Upload and Management
-This section of the documentation is designed to guide a data curator in importing and managing data into their Tripal site to properly meet to needs of the site's users. 
+This section of the documentation is designed to guide a data curator in importing into and managing data in their Tripal site to properly meet the needs of their site's users. 
 
 ## [Germplasm Data](germplasm-data)
 Prior to loading genotypic or phenotypic data into a Tripal site, it is first necessary to describe the germplasm for which these data pertain to. This section is where you will find how to import germplasm accessions, germplasm crosses, and to define germplasm collections for your site.
