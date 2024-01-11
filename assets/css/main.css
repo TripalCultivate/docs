@@ -275,14 +275,14 @@ sup {
 
 a {
     color: #596B48;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
 }
 
 a:hover {
     color: #72895D;
-    text-decoration: underline;
+    text-decoration: none
 }
 
 a:not([href]):not([tabindex]) {
@@ -18092,7 +18092,6 @@ html body .md-typeset .headerlink {
 
 .td-sidebar-nav__section-title a {
     color: #222
-    text-decoration: none
 }
 
 .td-sidebar-nav .td-sidebar-link {
@@ -18206,7 +18205,6 @@ html body .md-typeset .headerlink {
     display: block;
     font-weight: 300;
     padding-bottom: .25rem
-    text-decoration: none
 }
 
 .td-toc li {
