@@ -18092,6 +18092,7 @@ html body .md-typeset .headerlink {
 
 .td-sidebar-nav__section-title a {
     color: #222
+    text-decoration: none
 }
 
 .td-sidebar-nav .td-sidebar-link {
@@ -18205,6 +18206,7 @@ html body .md-typeset .headerlink {
     display: block;
     font-weight: 300;
     padding-bottom: .25rem
+    text-decoration: none
 }
 
 .td-toc li {
