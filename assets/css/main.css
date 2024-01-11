@@ -275,14 +275,14 @@ sup {
 
 a {
     color: #596B48;
-    text-decoration: none;
+    text-decoration: underline;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
 }
 
 a:hover {
-    color: #333d29;
-    text-decoration: none
+    color: #72895D;
+    text-decoration: underline;
 }
 
 a:not([href]):not([tabindex]) {
@@ -18105,7 +18105,7 @@ html body .md-typeset .headerlink {
 }
 
 .td-sidebar-nav a:hover {
-    color: #72a1e5;
+    color: #72895D;
     text-decoration: none
 }
 
