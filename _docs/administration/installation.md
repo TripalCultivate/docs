@@ -41,6 +41,9 @@ Enable Tripal Cultivate Phenotypes child modules - trpcultivate_phenocollect and
 
 `drush en trpcultivate_phenoshare`  
 
+Installing this module via Composer is strongly advised; however, if you don't have access to the command line try [manual install](installation#tripalcultivate-phenotypes-manual-install).
+
+
 ### TripalCultivate Genetics (optional)
 The [TripalCultivate Germplasm](installation#tripalcultivate-germplasm) module must be enabled and configured prior to installing Genetics.
 
