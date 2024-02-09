@@ -35,6 +35,12 @@ Then you can install it using Drush or the Extensions page on your Drupal site.
 
 `drush en trpcultivate_phenotypes`
 
+Enable Tripal Cultivate Phenotypes child modules - trpcultivate_phenocollect and trpcultivate_phenoshare:
+
+`drush en trpcultivate_phenocollect` 
+
+`drush en trpcultivate_phenoshare`  
+
 ### TripalCultivate Genetics (optional)
 The [TripalCultivate Germplasm](installation#tripalcultivate-germplasm) module must be enabled and configured prior to installing Genetics.
 
