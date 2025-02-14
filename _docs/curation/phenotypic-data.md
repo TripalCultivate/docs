@@ -9,12 +9,13 @@ description: This is documentation pertaining to curation, file upload and manag
 This module package... *describe the purpose of the phenotypic data module package for a curator of phenotypic data*
 
 ## [Phenotypic Traits](phenotypic-data/traits-importer)
-Each given experiment is expected to have its specified traits, which intend to uniquely identify the plants being phenotyped under the different experimental circumstances. Mandatory traits include **Germplasm Name**, **Sample Name** (i.e. entry no., label on a test tube or pot in the greenhouse), **Group** (i.e. site/location, assay name), **Experimental Unit** (i.e. plot, test tube), **Replicate**, **Timepoint** (e.g. planting date, drone flyover date, assay date) and **Treatment** (e.g. fertilizer, weeding pressure, nitrogen supplementation, temperature). Addition traits can also be added and described during data upload. 
-
+Each phenotypic measurement becomes associated with a phenotypic trait, which is described fully by its description, method of collection, unit and whether the trait is qualitative or quantitative. Use the Phenotypic Traits Importer to import any traits needed for an experiment, before the data is collected.
 
 
 ## [Phenomic Data Collection](phenotypic-data/collect-importer) 
-A data collection spreadsheet needs to be prepared by a data curator with the help of data collector(s) before any experimental data has been generated. Data collector(s) are encouraged to backup their raw phenotypic data regularly while the experiment is still ongoing. 
+A data collection spreadsheet is ideally prepared by a data curator with the help of the data collector(s) before any experimental data has been generated. Data collector(s) are encouraged to backup their raw phenotypic data regularly while the experiment is still ongoing.
+
+Mandatory metadata include **Germplasm Name**, **Sample Name** (i.e. entry no., label on a test tube or pot in the greenhouse), **Group** (i.e. site/location, assay name), **Experimental Unit** (i.e. plot, test tube), **Replicate**, **Timepoint** (e.g. planting date, drone flyover date, assay date) and **Treatment** (e.g. fertilizer, weeding pressure, nitrogen supplementation, temperature). Additional traits can also be added and described during data upload. 
 
 
 ## [Open Science Phenotypic Data](phenotypic-data/share-importer)
