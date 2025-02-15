@@ -1,0 +1,9 @@
+{
+	"name": "Jekyll: GitHub Pages",
+	"build": {
+		"context": "..",
+		"dockerfile": "../Dockerfile"
+	},
+	"onCreateCommand": "bundle install && bundle update",
+	"postCreateCommand": "bundle exec jekyll serve"
+}
