@@ -14,6 +14,11 @@
           url: docs/administration/installation#tripalcultivate-genetics-optional
     - title: "Setup and Configuration"
       url: docs/administration/configuration
+    - title: "Extending Functionality"
+      url: docs/administration/extend
+      children:
+        - title: "Validators"
+          url: docs/administration/extend/validators
     - title: "Ongoing Site Management"
       url: docs/administration/management
 - title: "Curation, File Upload and Management"
